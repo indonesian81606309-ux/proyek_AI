@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at 20% 30%, #0a0f1e, #03060c);
+  font-family: system-ui, 'Segoe UI', 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#root {
+  width: 100%;
+  max-width: 700px;
+}
